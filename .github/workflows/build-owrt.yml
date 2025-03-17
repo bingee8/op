@@ -2,8 +2,8 @@
 name: twrt
 
 on:
-  schedule:
-    - cron: "0 16 * * 3"
+#  schedule:
+#    - cron: "0 16 * * 3"
   workflow_dispatch:
     inputs:
       ssh:
