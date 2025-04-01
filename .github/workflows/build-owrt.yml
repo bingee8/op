@@ -2,6 +2,7 @@
 name: twrt
 
 on:
+  repository_dispatch:
 #  schedule:
 #    - cron: "0 16 * * 3"
   workflow_dispatch:
