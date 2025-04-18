@@ -177,7 +177,7 @@ jobs:
       uses: ophub/amlogic-s9xxx-openwrt@main
       with:
         openwrt_path: openwrt/bin/targets/*/*/*rootfs.tar.gz
-        openwrt_board: s905d_s912_wxy-oec
+        openwrt_board: s905d_s912_s905x3-hk1_wxy-oec
         openwrt_kernel: 6.1.y
 
     - name: Upload OpenWrt Firmware to Release
